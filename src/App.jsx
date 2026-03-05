@@ -4,6 +4,8 @@ import Navbar from "./Navbar/Navbar";
 import InProgress from "./TicketCounter/InProgress";
 import Resolved from "./TicketCounter/Resolved";
 import Tickets from "./Tickets/Tickets";
+import TaskStatus from "./Sidebar/TaskStatus";
+import ResolvedTask from "./Sidebar/ResolvedTask";
 const ticktesResponse = fetch(
     "https://webhero-nur.github.io/cst-assignment2/data.json",
 ).then((res) => res.json());
@@ -18,7 +20,7 @@ function App() {
                 <Resolved></Resolved>
             </div>
 
-            <div className="grid grid-cols-4 max-w-7xl mx-auto my-12">
+            <div className="grid grid-cols-4 gap-4 max-w-7xl mx-auto my-12">
                 <Suspense
                     fallback={
                         <h3 className="text-3xl font-semibold text-center">
@@ -28,6 +30,10 @@ function App() {
                 >
                     <Tickets ticktesResponse={ticktesResponse}></Tickets>
                 </Suspense>
+                <div className="flex flex-col gap-4">
+                    <TaskStatus></TaskStatus>
+                    <ResolvedTask></ResolvedTask>
+                </div>
             </div>
         </>
     );
