@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "Unable to login to account",
+    "description": "Customer reports that the login page keeps rejecting valid credentials even after resetting the password multiple times.",
+    "customer": "John Carter",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 2,
+    "title": "Payment not reflected in account",
+    "description": "Customer made a payment using a debit card but the invoice still shows as unpaid on the dashboard.",
+    "customer": "Sarah Ahmed",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 3,
+    "title": "Error while uploading documents",
+    "description": "User receives a server error message when trying to upload verification documents in the profile section.",
+    "customer": "Michael Tan",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 4,
+    "title": "Profile picture update failed",
+    "description": "Customer attempts to upload a new profile photo but the system keeps showing an upload failed notification.",
+    "customer": "Ayesha Rahman",
+    "priority": "low",
+    "status": "open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 5,
+    "title": "Dashboard loads very slowly",
+    "description": "Customer reports that the dashboard takes more than fifteen seconds to load after logging in.",
+    "customer": "Daniel Roberts",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 6,
+    "title": "Email notifications not received",
+    "description": "Customer says that ticket updates and activity notifications are not arriving in the registered email inbox.",
+    "customer": "Fatima Noor",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 7,
+    "title": "Password reset link expired",
+    "description": "Customer clicked the password reset link immediately but the page shows that the reset token has expired.",
+    "customer": "Kevin Lee",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 8,
+    "title": "Cannot update billing address",
+    "description": "User tries to change the billing address in account settings but the changes are not saved after submission.",
+    "customer": "Nusrat Jahan",
+    "priority": "low",
+    "status": "open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 9,
+    "title": "Mobile layout appears broken",
+    "description": "Customer using a mobile device reports that the navigation menu overlaps with the page content.",
+    "customer": "Ali Hassan",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 10,
+    "title": "Two factor code not accepted",
+    "description": "Customer enters the correct code from the authenticator app but the system rejects it as invalid.",
+    "customer": "Emily Watson",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 11,
+    "title": "Search results not accurate",
+    "description": "Customer reports that the search feature returns unrelated results when searching for specific tickets.",
+    "customer": "David Kim",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 12,
+    "title": "Attachment download not working",
+    "description": "User clicks the attachment download link but nothing happens and the file does not start downloading.",
+    "customer": "Priya Sharma",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 13,
+    "title": "Session logs out too quickly",
+    "description": "Customer complains that the account session expires after only a few minutes of inactivity.",
+    "customer": "Omar Faruk",
+    "priority": "low",
+    "status": "open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 14,
+    "title": "Error message on settings page",
+    "description": "User encounters a generic error message while trying to access the account settings page.",
+    "customer": "Laura Martinez",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 15,
+    "title": "Unable to change password",
+    "description": "Customer enters the correct current password but the system refuses to accept the new password.",
+    "customer": "Hasan Mahmud",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 16,
+    "title": "Language settings not saved",
+    "description": "User selects a different language in preferences but the interface reverts back after refreshing.",
+    "customer": "Sofia Gomez",
+    "priority": "low",
+    "status": "open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 17,
+    "title": "Notification badge count wrong",
+    "description": "Customer says the notification badge shows unread messages even after opening all notifications.",
+    "customer": "Arman Chowdhury",
+    "priority": "low",
+    "status": "open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 18,
+    "title": "API request failing intermittently",
+    "description": "Developer reports that API calls occasionally fail with a timeout error during peak hours.",
+    "customer": "Robert Hill",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 19,
+    "title": "Form validation not triggering",
+    "description": "Customer submits a form with missing fields but the validation does not display any warnings.",
+    "customer": "Mina Akter",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 20,
+    "title": "Ticket comments not updating",
+    "description": "Customer adds a comment to a support ticket but the new message does not appear until the page reloads.",
+    "customer": "Thomas Baker",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2026-03-05"
+  }
+]
